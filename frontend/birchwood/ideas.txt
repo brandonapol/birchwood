@@ -1,0 +1,12 @@
+Navbar
+Landing section z-index back ground parallax?
+About section 
+Different image parallax
+Skills section 
+Highlighted work
+Another parallax 
+Contact
+
+Auth access - frontegg? 
+What do I want to give auth access to? Twitter clone just because?
+
