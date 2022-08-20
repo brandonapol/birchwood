@@ -1,6 +1,15 @@
-from forms import UserLoginForm
 from models import User, db, check_password_hash
 from flask import Blueprint, render_template, request, redirect, url_for, flash
+
+from flask_wtf import FlaskForm 
+from wtforms import StringField, PasswordField, SubmitField, IntegerField
+from wtforms.validators import DataRequired, Email
+
+class UserLoginForm(FlaskForm):
+    # email, password, submit
+    email = StringField('Email', validators = [DataRequired(), Email()])
+    password = PasswordField('Password', validators = [DataRequired()])
+    submit_button = SubmitField()
 
 # imports for flask login 
 from flask_login import login_user, logout_user, LoginManager, current_user, login_required
