@@ -1,3 +1,5 @@
+Update code by integrating tailwindcss in! Steal ideas from dribbble too
+
 Navbar
 Landing section z-index back ground parallax?
 About section 
