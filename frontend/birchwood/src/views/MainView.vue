@@ -10,9 +10,7 @@ import { defineComponent } from "vue";
 import NavbarView from "../components/NavbarView.vue"; // @ is an alias to /src
 
 export default defineComponent({
-  name: "HomeView",
-  components: {
-    NavbarView,
-  },
+  name: "NavbarView",
+  components: { NavbarView },
 });
 </script>
