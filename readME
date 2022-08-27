@@ -9,8 +9,8 @@ still in development.
 - [Backend](https://github.com/brandonapol/birchwood/tree/master/backend) is currently a Flask application. It has authentication routes completed and a very simple JSON API set up in preparation for pending front end.
 - [Frontend](https://github.com/brandonapol/birchwood/tree/master/frontend/birchwood) is an in-process Vue app. It includes Tailwindcss and TypeScript and a Babel transpilation.
 
-## Running the App 
-### Back End:
+# Running the App 
+## Back End:
 TODO: Dockerfile instructions
 
 For now:
@@ -24,7 +24,7 @@ For now:
         - venv\Scripts\activate 
     - flask run 
 
-### Front End
+## Front End
 TODO: Dockerfile 
 
 ```Bash 
